@@ -1497,7 +1497,7 @@ respectively."
          (make-string (* (- height top-margin bottom-margin) width) ?1)
          (make-string (* bottom-margin width) ?0)
          "\n")
-        'pbm t :foreground color1 :background color2 :ascent 'center)))))
+        'pbm t :foreground "red" :background "green" :ascent 'center)))))
 
 ;; Check whether `window-total-width' is smaller than the limit
 (defun doom-modeline-window-size-change-function (&rest _)
